@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel ="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Barlow:wght@200&family=Poppins:wght@200&display=swap" rel="stylesheet">
+    <script defer src="src/index.js"></script>
+    <title>beer.Randomizer!</title>
+</head>
+<body>
+    <div id="beer-nav">
+        <h1>beer.Randomizer!</h1>
+        <p>Welcome to beer.Randomizer, follow the instructions below...</p>
+    </div>
+    <div id="beer-div">
+        <form id="beer-form">
+            <h2>Random Brewery</h2>
+            <p>Select from the drop down menu below to find a brewery near you.</p>
+            <span>State: </span><select id="state-dropdown" name="state-options">
+                <option value="choose-state">- Choose a State -</option>
+            </select>
+            <br><br>
+            <span>City: </span><select id="city-dropdown" name="city-options">
+                <option value="choose-city" class="default-option">- Select State First -</option>
+            </select>
+            <br><br>
+            <button id="submit-btn">Randomize!</button>
+            <br><br>
+        </form>
+        <div id="surprise-beer">
+            <h2>Your random brewery is...</h2>
+            <h3 id="brewery-name">Brewery Name:</h3>
+            <p class="address-font">Brewery Type:
+                <span id="brewery-type"></span>
+            </p>
+            <p class="address-font">Street:
+                <span id="brewery-street"></span>
+            </p>
+            <p class="address-font">City:
+                <span id="brewery-city"></span>
+            </p>
+            <p class="address-font">State:
+                <span id="brewery-state"></span>
+            </p>
+            <div id="like-dislike">
+                <button id="like-btn" type="button">Like</button>
+                <div id="result"></div>
+                <br>
+                <button id="dislike-btn" type="button"> Dislike</button>
+                <div id = "negative-result"></div>
+                <br>
+            </div>
+        </div>
+    </div>
+    <br>
+    <section id="beer-random">
+        <h2>Reviews</h2>
+        <div id="comments-section">
+            <p>Your random brewery's reviews will appear here...</p>
+            <!--Comments go Here-->
+        </div>
+        <form id="comment-form">
+            <input required type="text" name="comment-input" placeholder="Type your review here...">
+            <br>
+            <button type="submit">Add Comment</button>
+            <br><br>
+        </form>
+    </section>
+    <div id="bottom-nav">
+        <button id="contact-dev-btn">Contact Developer</button>
+        <span class="contact-info" style= "display: none;">
+            <span></span>GitHub: <a href="https://github.com/tfnielson-se">@tfnielson-se</a>
+            <br>
+            <span></span>Twitter: <a href="https://twitter.com/Pointbreak_se">@point.Break-se</a>
+        </span>
+    </div>
+    <div id="credits">
+        <p>Designed by</p>
+        <a href="https://github.com/tfnielson-se">Thomas Nielson</a>
+    </div>
+</body>
+</html>
