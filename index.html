@@ -30,25 +30,32 @@
             <br><br>
         </form>
         <div id="surprise-beer">
-            <h2>Your random brewery is...</h2>
-            <h3 id="brewery-name">Brewery Name:</h3>
-            <p class="address-font">Brewery Type:
-                <span id="brewery-type"></span>
-            </p>
-            <p class="address-font">Street:
-                <span id="brewery-street"></span>
-            </p>
-            <p class="address-font">City:
-                <span id="brewery-city"></span>
-            </p>
-            <p class="address-font">State:
-                <span id="brewery-state"></span>
-            </p>
+            
+            <section class="surprise-beer-info">
+                <div>
+                    <h3>Your random brewery is...</h3>
+                    <p class="address-font">Brewery Name:
+                        <span id="brewery-name"></span>
+                    </p>
+                    <p class="address-font">Brewery Type:
+                        <span id="brewery-type"></span>
+                    </p>
+                    <p class="address-font">Street:
+                        <span id="brewery-street"></span>
+                    </p>
+                    <p class="address-font">City:
+                        <span id="brewery-city"></span>
+                    </p>
+                    <p class="address-font">State:
+                        <span id="brewery-state"></span>
+                    </p>
+                </div>
+                <img src="/img/1A-Beer-flight.jpg" alt="beer-flight-image" class="flight-image">
+            </section>
             <div id="like-dislike">
-                <button id="like-btn" type="button">Like</button>
-                <div id="result"></div>
+                <button id="like-btn" type="button">Likes</button>
                 <br>
-                <button id="dislike-btn" type="button"> Dislike</button>
+                <button id="dislike-btn" type="button">Dislikes</button>
                 <div id = "negative-result"></div>
                 <br>
             </div>
@@ -56,9 +63,9 @@
     </div>
     <br>
     <section id="beer-random">
-        <h2>Reviews</h2>
+        <h2>Brewery Reviews</h2>
+        <p class="reviews-text">- Brewery reviews below -</p>
         <div id="comments-section">
-            <p>Your random brewery's reviews will appear here...</p>
             <!--Comments go Here-->
         </div>
         <form id="comment-form">
@@ -71,14 +78,16 @@
     <div id="bottom-nav">
         <button id="contact-dev-btn">Contact Developer</button>
         <span class="contact-info" style= "display: none;">
-            <span></span>GitHub: <a href="https://github.com/tfnielson-se">@tfnielson-se</a>
+            <span>GitHub: </span><a href="https://github.com/tfnielson-se">@tfnielson-se</a>
             <br>
-            <span></span>Twitter: <a href="https://twitter.com/Pointbreak_se">@point.Break-se</a>
+            <span>Twitter: </span><a href="https://twitter.com/Pointbreak_se">@point.Break-se</a>
         </span>
+        <br>
     </div>
     <div id="credits">
         <p>Designed by</p>
-        <a href="https://github.com/tfnielson-se">Thomas Nielson</a>
+        <p><a href="https://github.com/tfnielson-se">Thomas Nielson</a></p>
+        <img src="/img/flag_usa.png" alt="USA-flag" id="usa-flag"><span> </span></space><img src="/img/flag_brazil.svg" alt="Brazil-flag" id="brazil-flag">
     </div>
 </body>
 </html>

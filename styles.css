@@ -11,7 +11,6 @@ body {
 }
 
 h2 {
-    text-decoration: underline;
     margin: auto;
 }
 
@@ -24,7 +23,7 @@ h2 {
     display: block;
     height: 100%;
     box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
-    border-radius: 5px;
+    border-radius: 20px;
     border-bottom-right-radius: 100px;
 }
 
@@ -37,7 +36,7 @@ h2 {
 
 #beer-form {
     background: #708090;
-    border-radius: 5px;
+    border-radius: 20px;
     border-top-right-radius: 100px;
     border-bottom-left-radius: 100px;
     text-align: center;
@@ -47,18 +46,35 @@ h2 {
 
 #surprise-beer {
     background: #FAF9F6;
-    border-radius: 5px;
+    border-radius: 20px;
     border-top-left-radius: 100px;
     border-bottom-right-radius: 100px;
-    text-align: center;
     box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+}
+
+.surprise-beer-info {
+    display: flex;
+    flex-direction: row;
+    text-align: left;
+    justify-content: space-between;
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-top: 15px;
+}
+
+
+.surprise-beer-info img{
+    max-width: 300px;
+    max-height: 300px;
+    border-radius: 20px;
+    border-top-left-radius: 50px;
+    border-bottom-right-radius: 50px;
 }
 
 #beer-random {
     background: #708090;
-    border-radius: 5px;
+    border-radius: 20px;
     border-top-right-radius: 100px;
-
     text-align: center;
     box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
     margin-bottom: 20px;
@@ -67,7 +83,17 @@ h2 {
 
 #comment-form {
     text-align: center;
+}
 
+#bottom-nav {
+    background: transparent;
+    border-radius: 20px;
+    border-bottom-left-radius: 100px;
+    text-align: left;
+    box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+    margin-bottom: 20px;
+    margin-top: 10px;
+    height: 100px;
 }
 
 select {
@@ -100,7 +126,7 @@ button:hover {
 
 #contact-dev-btn {
     background: whitesmoke;
-    margin-left: 10px;
+    margin-left: 20px;
     margin-top: 10px;
 }
 #contact-dev-btn:hover {
@@ -112,7 +138,7 @@ button:hover {
 input {
     height: 25px;
     margin: 10px;
-    width: 200px;
+    width: 500px;
     border-radius: 10px;
     text-align: center;
     border-width: thin;
@@ -125,6 +151,14 @@ input {
     line-height: 0.5
 }
 
+#usa-flag{
+    width: 2.5%;
+}
+#brazil-flag{
+    width: 2%;
+}
+
+
 p.address-font {
     font-style: italic;
     color: gray
@@ -135,18 +169,17 @@ p span {
     color: black;
 }
 
-#bottom-nav {
-    background: transparent;
-    border-radius: 5px;
-    border-bottom-left-radius: 100px;
-    text-align: left;
-    box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
-    margin-bottom: 20px;
-    margin-top: 10px;
-    height: 100px;
-}
 
 .contact-info {
     text-align: center;
 }
 
+#brewery-name {
+    font-size: larger;
+    font-weight: 900;
+}
+
+.reviews-text {
+    font-style: italic;
+    text-decoration: underline;
+}

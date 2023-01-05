@@ -37,11 +37,13 @@ const cityDropdown = document.querySelector('#city-dropdown');
 const beerForm = document.querySelector('#beer-form');
 const commentsSection = document.querySelector('#comments-section');
 const commentForm = document.querySelector('#comment-form');
-const dislikeBtn = document.querySelector('#dislike-btn')
-const likeBtn = document.querySelector('#like-btn')
+const dislikeBtn = document.querySelector('#dislike-btn');
+const likeBtn = document.querySelector('#like-btn');
 
 ////////// fetch() //////////
 ////////// fetch() //////////
+
+// GET to display random beer on main // 
 
 // GET all
 function getData() {
@@ -163,8 +165,8 @@ function renderRandomizer(data) {
 // Random beer from State and City selection ABOVE //
 // Random beer from State and City selection ABOVE //
 
-// Reviews
-// Reviews
+// Handle and display Reviews BELOW //
+// Handle and display Reviews BELOW //
 
 commentForm.addEventListener('submit', handleNewReview)
 
@@ -188,13 +190,13 @@ function displayReviews (beerRandom) {
         commentsSection.append(p)
     })
 }
-// Reviews
-// Reviews
+// Handle and display Reviews ABOVE //
+// Handle and display Reviews ABOVE //
 
 // Like and Dislikes BELOW //
 // Like and Dislikes BELOW //
 
-// click to like 
+// click to like BELOW
 likeBtn.addEventListener('click', handleSubmitLike)
 
 function handleSubmitLike(e) {
@@ -203,7 +205,7 @@ function handleSubmitLike(e) {
 
     patchData(currentRandomBeer)
 }
-// click to dislike
+// click to dislike BELOW
 dislikeBtn.addEventListener('click', handleSubmitDislike)
 
 function handleSubmitDislike(e) {
@@ -215,9 +217,13 @@ function handleSubmitDislike(e) {
 // Like and Dislikes ABOVE //
 // Like and Dislikes ABOVE //
 
-const hideShowButton = document.querySelector('#bottom-nav button')
+
+// bottom nav BELOW //
+// bottom nav BELOW //
+
+const hideShowContact = document.querySelector('#bottom-nav button')
 const contactInfo = document.querySelector('.contact-info')
-hideShowButton.addEventListener('click', handleHideShowButton)
+hideShowContact.addEventListener('click', handleHideShowButton)
 
 function handleHideShowButton (e) {
     if(contactInfo.style.display === 'none') {
@@ -226,6 +232,10 @@ function handleHideShowButton (e) {
         contactInfo.style.display = 'none'
     }
 }
+
+
+// bottom nav ABOVE //
+// bottom nav ABOVE //
 
 ////////////////////////// WORKING CODE ABOVE ONLY//////////////////////////////////
 ////////////////////////// WORKING CODE ABOVE ONLY//////////////////////////////////
