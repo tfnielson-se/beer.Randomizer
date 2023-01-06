@@ -1,185 +1,181 @@
 html {
-    margin: 0; 
-    padding: 0;
+	margin: 0;
+	padding: 0;
 }
 
 body {
-    background: #ffffff;
-    color: black;
-    font-family: 'Barlow', sans-serif;
-    margin-top: 0;
+	background: #ffffff;
+	color: black;
+	font-family: "Barlow", sans-serif;
+	margin-top: 0;
 }
 
 h2 {
-    margin: auto;
+	margin: auto;
 }
 
 #beer-nav {
-    background-color: #FAF9F6;
-    text-align: center;
-    color: black;
-    margin-bottom: 10px;
-    padding: 5px;
-    display: block;
-    height: 100%;
-    box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
-    border-radius: 20px;
-    border-bottom-right-radius: 100px;
+	background-color: #faf9f6;
+	text-align: center;
+	color: black;
+	margin-bottom: 10px;
+	padding: 5px;
+	display: block;
+	height: 100%;
+	box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+	border-radius: 20px;
+	border-bottom-right-radius: 100px;
 }
 
 #beer-div {
-    display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
-    padding-top: 10px;
+	display: flex;
+	flex-direction: column;
+	flex-wrap: wrap;
+	padding-top: 10px;
 }
 
 #beer-form {
-    background: #708090;
-    border-radius: 20px;
-    border-top-right-radius: 100px;
-    border-bottom-left-radius: 100px;
-    text-align: center;
-    box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
-    margin-bottom: 20px;
+	background: #708090;
+	border-radius: 20px;
+	border-top-right-radius: 100px;
+	border-bottom-left-radius: 100px;
+	text-align: center;
+	box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+	margin-bottom: 20px;
 }
 
 #surprise-beer {
-    background: #FAF9F6;
-    border-radius: 20px;
-    border-top-left-radius: 100px;
-    border-bottom-right-radius: 100px;
-    box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+	background: #faf9f6;
+	border-radius: 20px;
+	border-top-left-radius: 100px;
+	border-bottom-right-radius: 100px;
+	box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
 }
 
 .surprise-beer-info {
-    display: flex;
-    flex-direction: row;
-    text-align: left;
-    justify-content: space-between;
-    margin-left: 100px;
-    margin-right: 100px;
-    margin-top: 15px;
+	display: flex;
+	flex-direction: row;
+	text-align: left;
+	justify-content: space-between;
+	margin-left: 100px;
+	margin-right: 100px;
+	margin-top: 15px;
 }
 
-
-.surprise-beer-info img{
-    max-width: 300px;
-    max-height: 300px;
-    border-radius: 20px;
-    border-top-left-radius: 50px;
-    border-bottom-right-radius: 50px;
+.surprise-beer-info img {
+	max-width: 300px;
+	max-height: 300px;
+	border-radius: 20px;
+	border-top-left-radius: 50px;
+	border-bottom-right-radius: 50px;
 }
 
 #beer-random {
-    background: #708090;
-    border-radius: 20px;
-    border-top-right-radius: 100px;
-    text-align: center;
-    box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
-    margin-bottom: 20px;
-    margin-top: 10px;
+	background: #708090;
+	border-radius: 20px;
+	border-top-right-radius: 100px;
+	text-align: center;
+	box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+	margin-bottom: 20px;
+	margin-top: 10px;
 }
 
 #comment-form {
-    text-align: center;
+	text-align: center;
 }
 
 #bottom-nav {
-    background: transparent;
-    border-radius: 20px;
-    border-bottom-left-radius: 100px;
-    text-align: left;
-    box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
-    margin-bottom: 20px;
-    margin-top: 10px;
-    height: 100px;
+	background: transparent;
+	border-radius: 20px;
+	border-bottom-left-radius: 100px;
+	text-align: left;
+	box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+	margin-bottom: 20px;
+	margin-top: 10px;
+	height: 100px;
 }
 
 select {
-    text-align: center;
-    border-radius: 10px;
-    width: 250px;
-    background: #FAF9F6;
+	text-align: center;
+	border-radius: 10px;
+	width: 250px;
+	background: #faf9f6;
 }
 
 #like-dislike {
-    text-align: center;
-    border-radius: 10px;
-    border-width: thin;
+	text-align: center;
+	border-radius: 10px;
+	border-width: thin;
 }
 
 button {
-    border-radius: 10px;
-    background: rgba(29, 165, 250, 0.417);
-    border-width: thin;
-    width: 150px;
-    transition: 1s;
+	border-radius: 10px;
+	background: rgba(29, 165, 250, 0.417);
+	border-width: thin;
+	width: 150px;
+	transition: 1s;
 }
 
 button:hover {
-    border-radius: 10px;
-    background: rgba(1, 125, 249, 0.524);
-    border-width: thin;
-    transition: 1s;
+	border-radius: 10px;
+	background: rgba(1, 125, 249, 0.524);
+	border-width: thin;
+	transition: 1s;
 }
 
 #contact-dev-btn {
-    background: whitesmoke;
-    margin-left: 20px;
-    margin-top: 10px;
+	background: whitesmoke;
+	margin-left: 20px;
+	margin-top: 10px;
 }
 #contact-dev-btn:hover {
-    background: rgb(213, 213, 213);
-    transition: 1s;
+	background: rgb(213, 213, 213);
+	transition: 1s;
 }
 
-
 input {
-    height: 25px;
-    margin: 10px;
-    width: 500px;
-    border-radius: 10px;
-    text-align: center;
-    border-width: thin;
-    background: #FAF9F6;
+	height: 25px;
+	margin: 10px;
+	width: 500px;
+	border-radius: 10px;
+	text-align: center;
+	border-width: thin;
+	background: #faf9f6;
 }
 
 #credits {
-    text-align: center;
-    font-size: smaller;
-    line-height: 0.5
+	text-align: center;
+	font-size: smaller;
+	line-height: 0.5;
 }
 
-#usa-flag{
-    width: 2.5%;
+#usa-flag {
+	width: 2.5%;
 }
-#brazil-flag{
-    width: 2%;
+#brazil-flag {
+	width: 2%;
 }
-
 
 p.address-font {
-    font-style: italic;
-    color: gray
+	font-style: italic;
+	color: gray;
 }
 
 p span {
-    font-style: normal;
-    color: black;
+	font-style: normal;
+	color: black;
 }
 
-
 .contact-info {
-    text-align: center;
+	text-align: center;
 }
 
 #brewery-name {
-    font-size: larger;
-    font-weight: 900;
+	font-size: larger;
+	font-weight: 900;
 }
 
 .reviews-text {
-    font-style: italic;
-    text-decoration: underline;
+	font-style: italic;
+	text-decoration: underline;
 }
